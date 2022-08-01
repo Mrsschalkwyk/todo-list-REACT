@@ -1,0 +1,26 @@
+this is a loop that this is like an ELEMENTID
+how to change the HTML with the user input
+
+//app.js
+function handleChange(event)
+setValue(event.target.value)
+... onchange=(habdlechange) //this is like an ELEMENTID for the html to change
+
+
+event by event is induidual key presses. charactor by charactor
+
+key={} this is HTML 
+
+
+function handleSubmit- 
+event.preventDefult();
+when we detect a change in the input field we want to add withour 
+refressing
+when an item is submitted to the list we want to add it without 
+refreshing the page and loosing everything.
+
+when you see() after a functions it means do something
+when there is nothijng after FUNCTION it means that you are passing something 
+around
+
+objects- are the same concept as pythion

@@ -1,4 +1,4 @@
-import React from'react'
+import React from 'react'
 
 function TodoItem() {
     return (
@@ -9,3 +9,5 @@ function TodoItem() {
         </div>
     )
 }
+
+export default TodoItem
