@@ -1,4 +1,6 @@
 import React from 'react'
+import './todoItem.css';
+
 
 function TodoItem() {
     return (

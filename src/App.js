@@ -1,8 +1,8 @@
 
 import React from 'react';
 import './App.css';
-import TodoItem from './components/todoItem'
-import TodoForm from './components/todoForm'
+import TodoItem from './components/todoItem';
+import TodoForm from './components/todoForm';
 
 function App() {
   // Our list of todo items and a function to update them
@@ -10,7 +10,7 @@ function App() {
   //   "Eat Dinner",
   //   "Finish SheCodes",
   //   "Have a shower"
-  {text: "eat,", isComplete:false}
+  {text: "eat", }
   ])
 
 
