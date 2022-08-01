@@ -10,8 +10,23 @@ function App() {
   //   "Eat Dinner",
   //   "Finish SheCodes",
   //   "Have a shower"
-  {text: "eat", }
-  ])
+  {text: "eat", 
+  isCompleted: false,
+},
+  {
+    text: "Meet Friends for lunch",
+    isCompleted:false,
+  },
+  {
+    text: "build cool app",
+    isCompleted:false,
+  }
+  ]);
+
+  // const addTodo= (text) => {
+  //   const newtodo = [ ...todos, {text}];
+  //   setTodos (newtodos);
+  // };
 
 
   // This will call our setTodo function, 
@@ -26,6 +41,8 @@ function App() {
   // We know which element is React because
   // it starts with a capital
   return (
+    <div className="app">
+    <div className="todo-list"
     <div>
       <h1>My Todo {todos}</h1>
       {/* 
@@ -33,7 +50,9 @@ function App() {
         called <TodoItem /> with the todo as a prop
        */}
       {todos.map((todo, index) => {
-        return <TodoItem key={index} myTodo={todo} />
+        return <TodoItem key={index} myTodo={todo} index={index}
+        completedTodo={completeTodo}
+        />
       })}
 
       {/* 
@@ -42,6 +61,7 @@ function App() {
         above to update our list of todos
       */}
       <TodoForm addTodo={addTodo} />
+    </div>
     </div>
   );
 }
